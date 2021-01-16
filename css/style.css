@@ -1,0 +1,200 @@
+*{
+    margin: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none !important;
+}
+h2{
+    font-size: 37px;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: #363958;
+}
+h5{
+    font-size: 25px;
+    font-weight: 600;
+    color: #363958;
+    text-transform: capitalize;
+}
+p{
+    font-size: 15px;
+    font-weight: 400;
+    margin: 0;
+}
+#banner-part{
+    background: #fff9f4;
+    height: 650px;
+    position: relative;
+}
+#nav-bar-item{
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    background-color: #FFF9F4;
+}
+#nav-bar-item .navbar-brand img{
+    width: 250px;
+    height: 40px;
+}
+.navbar-nav li{
+    padding: 0 20px;
+}
+.navbar-nav li a{
+    color: #444444 !important;
+    font-size: 16px;
+    font-weight: 500;
+    transition: color ease .5s;
+}
+.navbar-nav li a:hover{
+    color: #f68350 !important;
+}
+.banner-image{
+    position: absolute;
+    top: 10%;
+}
+.banner-image img{
+    width: 100%;
+}
+.banner-content{
+    position: relative;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    padding: 100px;
+}
+.banner-content h1{
+    font-size: 45px;
+    font-weight: 600;
+}
+.banner-content h1 .first_line{
+    color: #f68350;
+}
+.banner-content h1 .second_line{
+    color: #3e405e;
+}
+.banner-content a {
+    font-weight: 500;
+    font-size: 14px;
+    text-transform: uppercase;
+    padding: 14px 23px;
+    transition: background-color .3s ease-out;
+    margin: 15px 0;
+}
+.banner-content .btn-primary{
+    background-color: #3949D7 !important;
+    border-color: #3949D7 !important;
+}
+.banner-content a:hover {
+    background-color: #F68350 !important;
+    border: 1px solid #F68350 !important;
+}
+.banner-content .btn-primary.focus, .btn-primary:focus {
+    box-shadow: none;
+}
+.banner-content .btn-primary:not(:disabled):not(.disabled).active:focus, .btn-primary:not(:disabled):not(.disabled):active:focus, .show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: none;
+}
+.banner-content a img{
+    width: 21px;
+    height: 21px;
+    margin-right: 6px;
+}
+#product-list{
+    padding: 60px 0px;
+}
+.product-show{
+    padding-top: 40px;
+}
+.product-show .card{
+    border: none;
+    border-radius: 15px;
+    -webkit-box-shadow: -4px -7px 17px 4px rgba(221,221,221,0.6);
+    box-shadow: -4px -7px 17px 4px rgba(221,221,221,0.6);
+}
+.product-show .card a .card-img-top{
+    height: 350px;
+    padding: 20px;
+    border-radius: 30px;
+}
+.product-show .card-body a h5{
+    transition: .3s ease-out;
+}
+.product-show .card-body a h5:hover{
+    color: #F68350 !important;
+}
+.product-show .card-body h4{
+    display: inline-block;
+    color: #F68350;
+    font-size: 35px;
+    font-weight: 600;
+}
+.product-show .card-body .btn-primary{
+    position: relative;
+    left: 100px;
+    display: inline-block;
+    font-size: 14px;
+    font-weight: 600;
+    width: 120px;
+    height: 50px;
+    line-height: 40px;
+    background-color: #3949D7 !important;
+    border: #3949D7 !important;
+    transition: .4s ease-out;
+    text-transform: uppercase;
+}
+.product-show .card-body .btn-primary:hover{
+    background-color: #F68350 !important;
+    border: #F68350 !important;
+}
+.product-show .card-body .btn-primary span img{
+    width: 21px;
+    height: 21px;
+    margin-right: 6px;
+}
+#product-list-2{
+    padding: 60px 0px;
+}
+#about-us{
+    position: relative;
+    padding: 60px 0px;
+}
+.about-title{
+    margin-bottom: 40px;
+}
+.about-us-content{
+    margin: 15px 0;
+    padding: 20px;
+    -webkit-box-shadow: -4px -7px 17px 4px rgba(221,221,221,0.6);
+    box-shadow: -4px -7px 17px 4px rgba(221,221,221,0.6);
+    border-radius: 15px;
+}
+.about-us-content img{
+    width: 80px;
+    height: 80px;
+}
+#contact-us{
+    padding: 60px 0;
+}
+.contact-form{
+    padding: 30px;
+    border-radius: 15px;
+    -webkit-box-shadow: -4px -7px 17px 4px rgba(221,221,221,0.6);
+    box-shadow: -4px -7px 17px 4px rgba(221,221,221,0.6);
+}
+.contact-form button{
+    background-color: #3949D7 !important;
+    border: none;
+    width: 100px;
+    height: 40px;
+    transition: .3s ease-out;
+}
+.contact-form button:hover{
+    background-color: #F68350 !important;
+}
+.contact-form .form-control:focus{
+    border-color: #FFF9F4;
+    box-shadow: 0 0 0 0.2rem #F89350 !important;
+}
